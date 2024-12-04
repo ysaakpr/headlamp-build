@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        {
+            "name": "flux",
+            "archive": "https://github.com/headlamp-k8s/plugins/releases/download/flux-0.1.0-beta-1/flux-0.1.0-beta-1.tar.gz"
+          },
+      {
+        "name": "prometheus",
+        "archive": "https://github.com/headlamp-k8s/plugins/releases/download/prometheus-0.2.4/prometheus-0.2.4.tar.gz"
+      }
+    ]
+  }

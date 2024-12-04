@@ -34,6 +34,7 @@ jobs:
       - name: Versioning
         id: version
         run: |
+          cp build-manifest.json ./headlamp/container/build-manifest.json
           cd ./headlamp
           calculatedSha=$(git rev-parse --short ${{ github.sha }})
           echo "VERSION=$calculatedSha" >> $GITHUB_ENV
